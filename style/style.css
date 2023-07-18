@@ -1,0 +1,40 @@
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+}
+.logo-container{
+    display: flex;
+    width: 50%;
+}
+.logo-container img {
+    border: 2px solid red;
+    width: 50px;
+    height: 30px;
+    object-fit: cover;
+margin-left: 50px;
+}
+.logo-container p {
+    font-size: 30px;
+}
+.nav-item-container {
+   width: 50%;
+}
+.primary-color{
+    color: ;
+}
+
+/* online game & funny videos style */
+.online-game-container {
+text-align: center;
+}
+.online-game-img-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+}
+.online-game-img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
