@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap');
 *{
-    font-family: 'Work Sans', sans-serif
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
 }
-
+body{
+    max-width: 1920px;
+    margin: 0  auto;
+    font-family: 'Work Sans', sans-serif;
+}
 
 .nav-container{
     display: flex;
@@ -10,6 +17,7 @@
 }
 .logo-container{
     display: flex;
+    justify-content: center;
     width: 50%;
 }
 .logo-container img {
@@ -23,19 +31,36 @@ margin-left: 50px;
     font-size: 30px;
 }
 .nav-item-container {
-   width: 50%;
+  
+   display: flex;
+   justify-content:center;
+   font-size: 14px;
+   padding: 5px;
+   margin-right: 2rem;
+   
+}
+.nav-item-container a {
+    text-decoration: none;
+    gap: 5px;
 }
 .primary-color{
-    color: ;
+    color: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    
+}
+.follow-us{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
 }
 /* banner section style */
  .bannner-container{
     display: flex;
     justify-content: space-between;
+    margin-top: 10vh;
  }
- .banner-img-container{
+ /* .banner-img-container{
    
- }
+ } */
+
  .banner-img-container img {
     height: 70vh;
 
@@ -44,6 +69,7 @@ margin-left: 50px;
      display: flex;
      justify-content: center;
      align-items: center;
+     
      
  }
 .banner-all-info h1 {
@@ -56,20 +82,49 @@ font-weight: 600;
 line-height: normal;
 text-transform: uppercase;
 }
-.banner-all-info h2{
+.goat{
     text-align: center;
 font-family: Work Sans;
 font-size: 95px;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
-/* text-transform: uppercase; */
+text-transform: uppercase;
 background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
 background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
-
+.banner-all-info li {
+    color: #534C64;
+/* text-align: center; */
+list-style:none ;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: lowercase;
+}
+.Sign-in{
+    display: inline-flex;
+padding: 15px 30px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 38px;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+border:none;
+}
+.Go-Rogue{
+    display: inline-flex;
+    padding: 15px 30px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 38px ;
+    background: #4EC5F7;
+   border: none;
+ 
+}
 
 
 
@@ -89,6 +144,39 @@ text-align: center;
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.online-game-container h1{
+    color: #0B0223;
+text-align: center;
+font-family: Work Sans;
+font-size: 38px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
+.funny-video{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size:38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+.online-game-container {
+    color: #534C64;
+text-align: center;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 166.667%
+
 }
  /* play game online anywhere-anytime part start here  */
 
