@@ -165,9 +165,18 @@ padding-top: 7px;
 .online-game-img-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 15px;
+  gap: 12px;
   cursor: pointer;
+
 }
+.online-game-img1 img{
+    height: 300px;
+    width: 250px;
+}
+.online-game-img1 p{
+     font-size: 15px;
+}
+
 
  .online-game-img-container{
   display: flex;
@@ -283,7 +292,7 @@ line-height: 166.667%;
 
 .all-logo-container {
   max-width: 1400px;
-  min-height: 150px;
+  min-height: 30px;
   background: linear-gradient(
     90deg,
     rgba(255, 66, 165, 0.03) 0%,
@@ -327,13 +336,7 @@ text-align: center;
 .logo p:hover{
   color: #f948b2;
 }
-.button-container{
-  display:flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  padding: 130px;
- 
-}
+
 /* footer section start here */
 .footer-container {
   background: #0b0223;
