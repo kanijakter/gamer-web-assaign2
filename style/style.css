@@ -246,49 +246,59 @@ line-height: 166.667%;
 .play-game-img-container {
   display: flex;
 }
-.play-game-img-container img {
-}
+
 .play-game-img-container img {
   width: calc(50% - 10px);
   margin-right: 10px;
 }
 
-/* button section start here */
-.button-container {
-    margin: 4vh;
+
+
+.all-logo-container {
+  max-width: 1400px;
+  min-height: 150px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
+
+text-align: center;
+
 }
-.icon-btn {
+.logo-container{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 70%;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0 auto;
+  
+  
+}
+.logo {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
   gap: 5px;
-  border-radius: 50px;
-  background: #fff;
-  height: 10vh;
+  
+ 
+}
+.logo:hover{
   cursor: pointer;
-  border: none;
-}
-.icon-btn:hover{
-    color:white;
-    background-color: #f948b2;
-    border: 2px solid gray;
-}
-/* .button-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
+  border-radius: 90px;
+  background-color: #fff;
+  border: 2px solid #f948b2;
 }
 
-.button-container-2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
-  margin-top: 0.5rem;
-} */
-
+.logo p{
+  font-size: 12px;
+  font-weight: 600;
+}
+.logo p:hover{
+  color: #f948b2;
+}
 .button-container{
   display:flex;
   flex-wrap: wrap;
@@ -454,28 +464,22 @@ margin-top: 2vh;
 
    }
 
-   /* incomplete button section  */
-   /* .button-container{
+   .all-logo-container{
+    width: 100%;
+  }
+  .logo-container{
+    width: 100%;
     display: grid;
-    grid-template-columns: repeat(2,2fr);
-   }
-   .button-container-2 {
-    display:grid;
-    grid-template-columns: repeat(2,2fr);
-    align-items: center;
-    text-align: center;
-   } */
-   .button-container {
-    display: grid; 
     grid-template-columns: repeat(3,1fr);
-
-   }
-   .button-all-container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-   }
+  }
+  .logo img{
+    overflow: hidden;
+  }
+   
+   
    .footer-container{
     height: 90vh;
+    background-size: cover;
    }
     .footer-items{
         display: grid;
