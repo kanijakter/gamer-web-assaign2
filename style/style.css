@@ -79,7 +79,7 @@ body {
   background-repeat: no-repeat;
   width: 50%;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   text-align: center;
 }
 
@@ -90,7 +90,6 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-family: Work Sans;
   font-size: 48px;
   font-style: normal;
   font-weight: 600;
@@ -111,10 +110,11 @@ body {
   -webkit-text-fill-color: transparent;
 }
 .banner-all-info li {
+  
   color: #534c64;
-  /* text-align: center; */
+  
   list-style: none;
-  font-size: 20px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -149,14 +149,24 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 15px;
+  cursor: pointer;
 }
-.online-game-img-container {
+
+ .online-game-img-container{
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  
+  margin-top: 3rem;
 }
+.online-game-img1:hover{
+  border: 3px solid palevioletred;
+  border-radius:20px;
+   
+   background: var(--linear, linear-gradient(90deg, #a73771 0%, #ff42a5 100%));
+   
+}
+
 
 .online-game-container h1 {
   color: #0b0223;
@@ -282,6 +292,7 @@ text-align: center;
   justify-content: center;
   align-items: center;
   gap: 5px;
+
   
  
 }
