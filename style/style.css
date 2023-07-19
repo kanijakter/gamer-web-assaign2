@@ -449,15 +449,36 @@ margin-top: 2vh;
    /* incomplete button section  */
    .button-container{
     display: grid;
-    grid-template-columns: repeat(2fr);
+    grid-template-columns: repeat(2,2fr);
    }
    .button-container-2 {
     display:grid;
-    grid-template-columns: repeat(1fr);
+    grid-template-columns: repeat(2,2fr);
     align-items: center;
     text-align: center;
    }
-
+   .footer-container{
+    height: 90vh;
+   }
+    .footer-items{
+        display: grid;
+    grid-template-columns: repeat(3,2fr);
+   margin-top: 3rem;
+}
+.footer-logos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+.term-condition{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top:3rem ;
+}
+.footer-paragraph{
+    margin-top: 2.5rem;
+}
 
  }
 
