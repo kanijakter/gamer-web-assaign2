@@ -274,7 +274,7 @@ line-height: 166.667%;
     background-color: #f948b2;
     border: 2px solid gray;
 }
-.button-container {
+/* .button-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -287,6 +287,14 @@ line-height: 166.667%;
   align-items: center;
   gap: 8px;
   margin-top: 0.5rem;
+} */
+
+.button-container{
+  display:flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 120px;
+ 
 }
 /* footer section start here */
 .footer-container {
@@ -447,7 +455,7 @@ margin-top: 2vh;
    }
 
    /* incomplete button section  */
-   .button-container{
+   /* .button-container{
     display: grid;
     grid-template-columns: repeat(2,2fr);
    }
@@ -456,13 +464,23 @@ margin-top: 2vh;
     grid-template-columns: repeat(2,2fr);
     align-items: center;
     text-align: center;
+   } */
+   .button-container {
+    display: grid; 
+    grid-template-columns: repeat(3,1fr);
+
+   }
+   .button-all-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
    }
    .footer-container{
     height: 90vh;
    }
     .footer-items{
         display: grid;
-    grid-template-columns: repeat(3,2fr);
+        grid-template-columns: repeat(3,1fr);
+    
    margin-top: 3rem;
 }
 .footer-logos{
@@ -493,7 +511,12 @@ margin-top: 2vh;
         margin-left: 4rem;
         width: 100%;
        }
+       .online-game-container{
+        display: grid;
+        flex-direction: column;
+       }
        
+
  }
 
 
