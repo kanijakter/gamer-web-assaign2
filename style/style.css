@@ -413,9 +413,10 @@ margin-top: 2vh;
     
    } 
 
-   .logo-container{
+   .nav-logo{
     padding-bottom:25px ;
     margin-bottom: 2vh;
+    margin-left: 12.5rem;
    }
    .nav-item-container{
     flex-direction: column;
