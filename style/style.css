@@ -16,17 +16,18 @@ body {
   margin-top: 5vh;
 
 }
-.logo-container {
+.nav-logo {
   display: flex;
   justify-content: center;
   width: 50%;
-  
-  gap: 10px;
+  gap: 5px;
+  margin-right: 16rem;
+
 }
 .logo-container h1{
  
 }
-.logo-container img {
+.nav-logo img {
   
   width: 50px;
   height: 30px;
@@ -34,8 +35,12 @@ body {
  
   
 }
-.logo-container p {
+.logo-container h1{
+
+}
+.nav-logo p {
   font-size: 30px;
+
 }
 .nav-item-container {
   display: flex;
@@ -43,7 +48,7 @@ body {
   font-size: 14px;
   padding: 5px;
   margin-right: 2rem;
-  gap: 20px;
+  gap: 30px;
 }
 .nav-item-container a {
   text-decoration: none;
@@ -56,8 +61,16 @@ body {
     -webkit-text-fill-color: transparent;
 }
 .follow-us {
-  border-radius: 8px;
-  background: rgba(11, 2, 35, 0.1);
+  height: 2rem;
+  width:9rem;
+
+align-items: center; 
+text-align: center;
+padding-top: 7px;
+ background: rgba(11, 2, 35, 0.1);
+ border-radius: 8px;
+ 
+ 
 }
 /* banner section style */
 .bannner-container {
@@ -126,8 +139,10 @@ body {
   align-items: flex-start;
   gap: 10px;
   border-radius: 38px;
+  color: white;
   background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
   border: none;
+  margin-top: 1.5rem;
 }
 .Go-Rogue {
   display: inline-flex;
@@ -136,7 +151,9 @@ body {
   gap: 10px;
   border-radius: 38px;
   background: #4ec5f7;
+  color:white;
   border: none;
+  margin-top: 1.5rem;
 }
 
 /* online game & funny videos style */
