@@ -410,7 +410,42 @@ margin-top: 2vh;
         font-size: 15px;
         padding: 7px;
     }
-    
+    /* online game and funny video */
+  .online-game-container h1{
+           font-size: 20px;
+           font-weight: 600;
+  }
+.funny-video{
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.online-game-container p{
+    font-size: 12px;
+
+}
+ .online-game-img-container{
+   display: flex;
+   flex-direction: column;
+   margin-top: 2rem;
+ }
+   .play-game-container{
+    display: flex;
+    flex-direction: column;
+   }
+   .play-game-title h1{
+      margin-top: 5rem;
+      font-size:20px ;
+      font-weight: 900;
+      
+   }
+   .play-game-title p {
+     margin-top: 1.5rem;
+      font-size: 8px;
+      font-weight: 500;
+
+   }
+
  }
 
 
