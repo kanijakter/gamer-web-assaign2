@@ -446,6 +446,19 @@ margin-top: 2vh;
 
    }
 
+   /* incomplete button section  */
+   .button-container{
+    display: grid;
+    grid-template-columns: repeat(2fr);
+   }
+   .button-container-2 {
+    display:grid;
+    grid-template-columns: repeat(1fr);
+    align-items: center;
+    text-align: center;
+   }
+
+
  }
 
 
