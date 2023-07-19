@@ -13,18 +13,26 @@ body {
 .nav-container {
   display: flex;
   justify-content: space-around;
+  margin-top: 5vh;
+
 }
 .logo-container {
   display: flex;
   justify-content: center;
   width: 50%;
+  
+  gap: 10px;
+}
+.logo-container h1{
+ 
 }
 .logo-container img {
   
   width: 50px;
   height: 30px;
   object-fit: cover;
-  margin-left: 50px;
+ 
+  
 }
 .logo-container p {
   font-size: 30px;
@@ -56,6 +64,7 @@ body {
   display: flex;
   justify-content: space-between;
   margin-top: 10vh;
+  width: 100%;
 }
 /* .banner-img-container{
    
@@ -105,7 +114,6 @@ body {
   color: #534c64;
   /* text-align: center; */
   list-style: none;
-  font-family: Work Sans;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -349,7 +357,61 @@ font-weight: 100;
 line-height: normal; 
 margin-top: 2vh; 
 }
+ /* responsive mobile device start here */
+ @media  screen and (max-width:576px) {
+   .nav-container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+   } 
 
+   .logo-container{
+    padding-bottom:25px ;
+    margin-bottom: 2vh;
+   }
+   .nav-item-container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   }
+   .bannner-container{
+    display: flex;
+    flex-direction: column;
+   
+   }
+   .banner-title{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 6rem;
+   }
+   .banner-all-info h1 {
+    color: #0b0223;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+    .goat{
+        font-size: 50px;
+        font-weight: 700px;
+    }
+    .banner-all-info li {
+        font-size: 15px;
+        padding: 7px;
+    }
+    
+ }
 
 
 
