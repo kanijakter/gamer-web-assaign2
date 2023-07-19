@@ -24,9 +24,8 @@ body {
   margin-right: 16rem;
 
 }
-.logo-container h1{
  
-}
+
 .nav-logo img {
   
   width: 50px;
@@ -35,9 +34,7 @@ body {
  
   
 }
-.logo-container h1{
 
-}
 .nav-logo p {
   font-size: 30px;
 
@@ -111,7 +108,7 @@ padding-top: 7px;
 }
 .goat {
   text-align: center;
-  font-family: Work Sans;
+  
   font-size: 95px;
   font-style: normal;
   font-weight: 800;
@@ -197,7 +194,7 @@ padding-top: 7px;
 .online-game-container h1 {
   color: #0b0223;
   text-align: center;
-  font-family: Work Sans;
+
   font-size: 38px;
   font-style: normal;
   font-weight: 700;
@@ -209,7 +206,7 @@ padding-top: 7px;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: Work Sans;
+  
   font-size: 38px;
   font-style: normal;
   font-weight: 700;
@@ -219,7 +216,7 @@ padding-top: 7px;
 .online-game-container {
   color: #534c64;
   text-align: center;
-  font-family: Work Sans;
+  
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -380,6 +377,14 @@ height: 30px;
     align-items: center;
     gap: 20px;
     margin-top: 8px;
+    cursor: pointer;
+}
+.footer-logos :hover{
+  background-color: #FF42A5;
+  border:4px solid  #f948b2;
+  border-radius: 12px;
+  
+  
 }
 
 .term-condition {
