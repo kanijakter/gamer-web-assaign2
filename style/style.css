@@ -542,6 +542,14 @@ margin-top: 2vh;
 .footer-paragraph{
     margin-top: 2.5rem;
 }
+.footer-logos :hover{
+  background-color: #FF42A5;
+  border:1px solid  #f948b2;
+  border-radius: 4px;
+  
+
+ width: 27px; 
+}
 
  }
  /* responsive web for tablate view */
