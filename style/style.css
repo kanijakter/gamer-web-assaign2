@@ -5,15 +5,16 @@
   box-sizing: border-box;
 }
 body {
-  max-width: 1920px;
+  max-width: 1400px;
   margin: 0 auto;
   font-family: "Work Sans", sans-serif;
+
 }
 
 .nav-container {
   display: flex;
   justify-content: space-around;
-  margin-top: 5vh;
+ 
 
 }
 .nav-logo {
@@ -89,7 +90,7 @@ padding-top: 7px;
   background-repeat: no-repeat;
   width: 50%;
   justify-content: center;
-  /* align-items: center; */
+  align-items: center;
   text-align: center;
 }
 
@@ -289,7 +290,7 @@ line-height: 166.667%;
 
 .all-logo-container {
   max-width: 1400px;
-  min-height: 30px;
+  
   background: linear-gradient(
     90deg,
     rgba(255, 66, 165, 0.03) 0%,
@@ -297,6 +298,8 @@ line-height: 166.667%;
   );
 
 text-align: center;
+height:50vh ;
+
 
 }
 .logo-container{
@@ -508,6 +511,7 @@ margin-top: 2vh;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    padding: 10px;
   }
   .logo img{
     overflow: hidden;
@@ -555,19 +559,30 @@ margin-top: 2vh;
         margin-bottom: 1.5rem;
        }
        .bannner-container{
-        margin-left: 4rem;
         width: 100%;
+
        }
        .online-game-img-container{
         display: grid;
         grid-template-columns: repeat(2,1fr);
        }
-       
+       .all-logo-container{
+        width: 100%;
+      }
+       .logo-container{
+        width: 100%;
+        
+        grid-template-columns: repeat(4,1fr);
+        
+        column-gap:15px ;
+        row-gap: 35px;
+      }
        .footer-container{
-        width: 100hr;
+        width: 120hr;
         background-size: cover;
         
        }
+       
 
  }
 
