@@ -23,6 +23,7 @@ body {
   width: 50%;
   gap: 5px;
   margin-right: 16rem;
+  margin-top: 15px;
 
 }
  
@@ -47,6 +48,7 @@ body {
   padding: 5px;
   margin-right: 2rem;
   gap: 30px;
+  margin-top: 15px;
 }
 .nav-item-container a {
   text-decoration: none;
@@ -164,10 +166,11 @@ padding-top: 7px;
 .online-game-img-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 12px;
+  gap: 5px;
   cursor: pointer;
 
 }
+
 .online-game-img1 img{
     height: 300px;
     width: 250px;
@@ -429,6 +432,7 @@ margin-top: 2vh;
     padding-bottom:25px ;
     margin-bottom: 2vh;
     margin-left: 12.5rem;
+    margin-top: 15px;
    }
    .nav-item-container{
     flex-direction: column;
@@ -581,6 +585,8 @@ margin-top: 2vh;
        .online-game-img-container{
         display: grid;
         grid-template-columns: repeat(2,1fr);
+        width: 100%;
+        
        }
        .all-logo-container{
         width: 100%;
